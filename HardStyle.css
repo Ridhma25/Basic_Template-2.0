@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-color: #fbf9fe;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%231ce1ce' fill-opacity='0.43'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    box-sizing: border-box;
+}
+
+.nav_head{
+    background: rgb(255 255 255 / 50%); 
+}
+
+section{
+    min-height:100vh; /*relative height*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+}
+
+.img_first{
+    margin-top: 10px;
+    border: 1px solid #1b9999;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    height: 350px;
+    width: 100px;
+}
+
+.about_title{
+    justify-content: center;
+    text-align: center;
+}
+
+.second_div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+  }
+
+.projects_title{
+    text-align: center;
+}
+
+.ttttt{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.BTS{
+    height: auto;
+    width: 800px;
+    background-color: rgb(227, 242, 245);
+}
+
+.lol{
+    align-items: center;
+    display: flex; 
+    flex-direction: row;
+}
+
+.fab{
+    color: rgba(255, 92, 92);
+    font-size: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
